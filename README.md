@@ -7,4 +7,4 @@
 <h3>$$X/a = sint , x=A *sin(t) ,and ,Y/b= cos(t) ,Y=b*cos(t)$$</h3>
 <h2>yellow circle:</h2>
 <h3>$$i \quad do \quad sqrt \quad because \quad sqrt \quad is \quad slow \quad and \quad i \quad on X axis  $$</h3>
-<h3>$$i \quad do \quad tan \quad on \quad y \quad Axis \quad because \lim_{x \to \frac{\pi}{2}} \tan{x} $$</h3>
+<h3>$$i \quad do \quad tan \quad on \quad y \quad Axis \quad because \lim_{x \to \frac{\pi}{2}} \tan{x} =+ \infty \quad to \quad set \quad ballon on buttomer$$</h3>
