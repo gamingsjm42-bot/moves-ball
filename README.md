@@ -9,4 +9,4 @@
 <h3>$$Y/a = sint , Y=a *sin(t) ,and ,X/b= cos(t) ,X=b*cos(t)$$</h3>
 <h2>yellow circle:</h2>
 <h3>$$i \quad do \quad sqrt \quad because \quad sqrt \quad is \quad slow \quad and \quad i \quad on \quad X \quad axis  $$</h3>
-<h3>$$i \quad do \quad tan \quad on \quad y \quad Axis \quad because \lim_{x \to \frac{\pi}{2}} \tan{x} =+ \infty \quad to \quad set \quad ballon on buttomer$$</h3>
+<h3>$$i \quad do \quad tan \quad on \quad y \quad Axis \quad because \lim_{x \to \frac{\pi}{2}} \tan{x} =+ \infty \quad to \quad set \quad ballon \quad on \quad buttomer$$</h3>
