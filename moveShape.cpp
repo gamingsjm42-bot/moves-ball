@@ -5,7 +5,7 @@
 sf::RenderWindow wnd(sf::VideoMode(sf::VideoMode::getDesktopMode()),"move test",sf::State::Fullscreen);
 //constance
 const size_t FPS =  60;
-const float deltaT = static_cast<float>(1/FPS);
+const float deltaT = 1/static_cast<float>(FPS);
 //
 /// @brief that circle move while 
 /// @tparam number that number type of that
@@ -42,7 +42,7 @@ struct moveShape
 };
 sf::Time t; 
 
-std::vector<moveShape<float>> shapes ={moveShape<float>([](moveShape<float> self,float t){return sf::Vector2f(5*sin(t),cos(t));},sf::Vector2f(250,240),[](moveShape<float> self)
+std::vector<moveShape<float>> shapes ={moveShape<float>([](moveShape<float> self,float t){return sf::Vector2f(5*std::sin(t),std::cos(t));},sf::Vector2f(250,240),[](moveShape<float> self)
     {
         sf::CircleShape l(34);
         l.setPosition(self.getPosition());
