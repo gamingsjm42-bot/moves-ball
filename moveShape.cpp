@@ -36,7 +36,7 @@ struct moveShape
     }
     /// @brief that function edit position
     /// @param t that time of subject
-    void move(number t){position.x+=speed(*this,t).x;position.y+=deltaT*speed(*this,t).y;} 
+    void move(number t){position.x+=speed(*this,t).x;position.y+=speed(*this,t).y;} 
     /// @brief thtat function draww self with pos
     void draw(){shape(*this);}
 };
