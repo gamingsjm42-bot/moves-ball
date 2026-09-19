@@ -15,6 +15,7 @@ int main()
             //set close event
             if(event->is<sf::Event::Closed>()) wnd.close();
         }
+        wnd.clear(sf::Color::Red);
         //set
         t=clk.getElapsedTime();
         //set fps
@@ -29,7 +30,6 @@ int main()
         //set image
         //display wnd
         wnd.display();
-        wnd.clear(sf::Color::Red);
          //compare
     }
     
